@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
- root to: 'test#index'
+  get 'otoko/index'
 
  resources :test
 end
